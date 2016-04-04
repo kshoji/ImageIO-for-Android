@@ -31,9 +31,9 @@
 #define _SYSTEM_DOMAIN_H_
 
 
-#include <sys/appleapiopts.h>
-#include <sys/cdefs.h>
-#include <sys/types.h>
+#include "../sys/cdefs.h"
+#include "../sys/types.h"
+#include "../sys/appleapiopts.h"
 
 
 /* Kernel Events Protocol */ 

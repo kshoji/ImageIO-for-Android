@@ -71,7 +71,7 @@
 #ifndef _SYS_MALLOC_H_
 #define	_SYS_MALLOC_H_
 
-#include <sys/appleapiopts.h>
+#include "../sys/appleapiopts.h"
 
 
 

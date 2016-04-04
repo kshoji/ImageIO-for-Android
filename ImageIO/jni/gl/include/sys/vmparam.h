@@ -43,6 +43,6 @@
  * Machine dependent constants
  */
 
-#include <machine/vmparam.h>
+#include "../machine/vmparam.h"
 
 #endif	/* _SYS_VMPARAM_H_ */

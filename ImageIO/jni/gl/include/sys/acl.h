@@ -24,7 +24,7 @@
 #define _SYS_ACL_H
 
 #include <Availability.h>
-#include <sys/kauth.h>
+#include "../sys/kauth.h"
 
 #define __DARWIN_ACL_READ_DATA			(1<<1)
 #define __DARWIN_ACL_LIST_DIRECTORY		__DARWIN_ACL_READ_DATA

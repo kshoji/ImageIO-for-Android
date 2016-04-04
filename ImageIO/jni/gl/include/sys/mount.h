@@ -71,14 +71,13 @@
 #ifndef _SYS_MOUNT_H_
 #define	_SYS_MOUNT_H_
 
-#include <sys/appleapiopts.h>
-#include <sys/cdefs.h>
-#include <sys/attr.h>		/* needed for vol_capabilities_attr_t */
-
+#include "../sys/cdefs.h"
 #include <stdint.h>
-#include <sys/ucred.h>
-#include <sys/queue.h>		/* XXX needed for user builds */
+#include "../sys/queue.h"		/* XXX needed for user builds */
 #include <Availability.h>
+#include "../sys/appleapiopts.h"
+#include "../sys/attr.h"		/* needed for vol_capabilities_attr_t */
+#include "../sys/ucred.h"
 
 typedef struct fsid { int32_t val[2]; } fsid_t;	/* file system id type */
 

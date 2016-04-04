@@ -6,7 +6,8 @@
 #define _OS_OSBYTEORDERARM_H
 
 #include <stdint.h>
-#include <arm/arch.h> /* for _ARM_ARCH_6 */
+
+#include "../../arm/arch.h" /* for _ARM_ARCH_6 */
 
 #if !defined(OS_INLINE)
 # if defined(__STDC_VERSION__) && __STDC_VERSION__ >= 199901L

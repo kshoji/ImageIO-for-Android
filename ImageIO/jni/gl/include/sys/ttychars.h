@@ -64,7 +64,7 @@
 #ifndef _SYS_TTYCHARS_H_
 #define _SYS_TTYCHARS_H_
 
-#include <sys/appleapiopts.h>
+#include "../sys/appleapiopts.h"
 
 #ifdef __APPLE_API_UNSTABLE
 /*
@@ -90,7 +90,7 @@ struct ttychars {
 	char	tc_lnextc;	/* literal next character */
 };
 #ifdef USE_OLD_TTY
-#include <sys/ttydefaults.h>	/* to pick up character defaults */
+#include "../sys/ttydefaults.h"	/* to pick up character defaults */
 #endif
 
 #endif /* __APPLE_API_UNSTABLE */

@@ -69,14 +69,14 @@
 #ifndef _SYS_PROC_H_
 #define	_SYS_PROC_H_
 
-#include <sys/appleapiopts.h>
-#include <sys/cdefs.h>
-#include <sys/select.h>			/* For struct selinfo. */
-#include <sys/queue.h>
-#include <sys/lock.h>
-#include <sys/param.h>
-#include <sys/event.h>
+#include "../sys/cdefs.h"
+#include "../sys/select.h"			/* For struct selinfo. */
+#include "../sys/queue.h"
+#include "../sys/param.h"
 #include <mach/boolean.h>
+#include "../sys/appleapiopts.h"
+#include "../sys/event.h"
+#include "../sys/lock.h"
 
 
 struct session;

@@ -72,9 +72,9 @@
 #ifndef _SYS_SOCKET_H_
 #define	_SYS_SOCKET_H_
 
-#include <sys/types.h>
-#include <sys/cdefs.h>
-#include <machine/_param.h>
+#include "../sys/types.h"
+#include "../sys/cdefs.h"
+#include "../machine/_param.h"
 
 
 #include <Availability.h>

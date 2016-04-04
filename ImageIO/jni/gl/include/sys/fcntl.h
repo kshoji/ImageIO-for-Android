@@ -75,8 +75,8 @@
  * described by POSIX for <fcntl.h>; it also includes
  * related kernel definitions.
  */
-#include <sys/_types.h>
-#include <sys/cdefs.h>
+#include "../sys/_types.h"
+#include "../sys/cdefs.h"
 #include <Availability.h>
 
 /* We should not be exporting size_t here.  Temporary for gcc bootstrapping. */

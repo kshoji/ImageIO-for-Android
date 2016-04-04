@@ -69,10 +69,10 @@
 #ifndef _SYS_TTY_H_
 #define	_SYS_TTY_H_
 
-#include <sys/appleapiopts.h>
-#include <sys/cdefs.h>
-#include <sys/termios.h>
-#include <sys/select.h>		/* For struct selinfo. */
+#include "../sys/cdefs.h"
+#include "../sys/select.h"		/* For struct selinfo. */
+#include "../sys/appleapiopts.h"
+#include "../sys/termios.h"
 
 
 struct tty;

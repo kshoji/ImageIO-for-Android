@@ -24,7 +24,7 @@
 #ifndef _OSMEMORYNOTIFICATION_H_
 #define _OSMEMORYNOTIFICATION_H_
 
-#include <sys/cdefs.h>
+#include "../sys/cdefs.h"
 #include <Availability.h>
 
 /*

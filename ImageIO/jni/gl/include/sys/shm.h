@@ -65,14 +65,14 @@
 #ifndef _SYS_SHM_H_
 #define _SYS_SHM_H_
 
-#include <sys/cdefs.h>
-#include <sys/_types.h>
+#include "../sys/cdefs.h"
+#include "../sys/_types.h"
 
 /*
  * [XSI]	All of the symbols from <sys/ipc.h> SHALL be defined
  *		when this header is included
  */
-#include <sys/ipc.h>
+#include "../sys/ipc.h"
 
 /*
  * [XSI] The pid_t, time_t, key_t, and size_t types shall be defined as

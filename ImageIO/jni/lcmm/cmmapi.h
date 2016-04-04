@@ -19,8 +19,8 @@
  * 
  */
 
-#include "lcms.h"
-#include "icc34.h"
+#include <icc34.h>
+#include <lcms.h>
 #ifndef cmsFLAGS_NOTCACHE
 #define cmsFLAGS_NOTCACHE (0)
 #endif

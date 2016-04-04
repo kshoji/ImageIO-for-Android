@@ -20,6 +20,8 @@
 #include "hycomp.h"
 #include "vmi.h"
 
+  typedef const struct VMInterfaceFunctions_ *VMInterface;
+
 #ifdef __cplusplus
 extern "C" {
 #endif

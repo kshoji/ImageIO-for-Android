@@ -35,7 +35,7 @@
 #ifndef _SYS_SYSCALL_H_
 #define	_SYS_SYSCALL_H_
 
-#include <sys/appleapiopts.h>
+#include "../sys/appleapiopts.h"
 #ifdef __APPLE_API_PRIVATE
 #define	SYS_syscall        0
 #define	SYS_exit           1

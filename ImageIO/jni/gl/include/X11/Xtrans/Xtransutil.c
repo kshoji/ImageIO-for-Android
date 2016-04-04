@@ -460,8 +460,8 @@ is_numeric (const char *str)
 }
 
 #ifdef TRANS_SERVER
-#include <sys/types.h>
-#include <sys/stat.h>
+#include "../../sys/types.h"
+#include "../../sys/stat.h"
 #include <errno.h>
 
 #if !defined(S_IFLNK) && !defined(S_ISLNK)

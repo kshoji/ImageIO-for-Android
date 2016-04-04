@@ -44,7 +44,7 @@ extern "C" {
  * Please refer to the "Solaris Dynamic Tracing Guide" for more information.
  */
 
-#include <sys/dtrace.h>
+#include "../sys/dtrace.h"
 
 /*
  * DTrace Implementation Constants and Typedefs

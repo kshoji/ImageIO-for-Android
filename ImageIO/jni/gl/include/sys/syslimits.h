@@ -65,7 +65,7 @@
 #ifndef _SYS_SYSLIMITS_H_
 #define _SYS_SYSLIMITS_H_
 
-#include <sys/cdefs.h>
+#include "../sys/cdefs.h"
 
 #if !defined(_ANSI_SOURCE)
 /*

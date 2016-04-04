@@ -64,7 +64,7 @@
 #ifndef _SYS_UNISTD_H_
 #define	_SYS_UNISTD_H_
 
-#include <sys/cdefs.h>
+#include "../sys/cdefs.h"
 
 /*
  * Although we have saved user/group IDs, we do not use them in setuid

@@ -414,7 +414,7 @@
 /*
  * symbol release macros
  */
-#include <sys/_symbol_aliasing.h>
+#include "../sys/_symbol_aliasing.h"
 
 #if defined(__IPHONE_OS_VERSION_MIN_REQUIRED)
 #define __DARWIN_ALIAS_STARTING(_mac, _iphone, x)   __DARWIN_ALIAS_STARTING_IPHONE_##_iphone(x)
@@ -491,7 +491,7 @@
 #endif
 
 /* POSIX C deprecation macros */
-#include <sys/_posix_availability.h>
+#include "../sys/_posix_availability.h"
 
 #define __POSIX_C_DEPRECATED(ver) ___POSIX_C_DEPRECATED_STARTING_##ver
 
@@ -603,5 +603,19 @@
 #ifndef __CAST_AWAY_QUALIFIER
 #define __CAST_AWAY_QUALIFIER(variable, qualifier, type)  (type) (long)(variable)
 #endif
+
+#define __va_list __darwin_va_list
+
+#define __noreturn
+#define __mallocfunc
+#define __NDK_FPABI__
+#define __NDK_FPABI_MATH__
+typedef long long __kernel_loff_t;
+typedef __kernel_loff_t      loff_t;
+typedef loff_t               off64_t;  /* GLibc-specific */
+typedef int __kernel_timer_t;
+typedef __kernel_timer_t	timer_t;
+typedef int __kernel_clockid_t;
+typedef __kernel_clockid_t   clockid_t;
 
 #endif /* !_CDEFS_H_ */

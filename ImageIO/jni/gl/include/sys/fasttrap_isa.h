@@ -43,6 +43,6 @@
  * Machine dependent constants
  */
 
-#include <machine/fasttrap_isa.h>
+#include "../machine/fasttrap_isa.h"
 
 #endif	/* _SYS_FASTTRAP_ISA_H_ */

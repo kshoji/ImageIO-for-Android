@@ -29,7 +29,7 @@
 #ifndef _SYS_XATTR_H_
 #define _SYS_XATTR_H_
 
-#include <sys/types.h>
+#include "../sys/types.h"
 
 /* Options for pathname based xattr calls */
 #define XATTR_NOFOLLOW   0x0001     /* Don't follow symbolic links */

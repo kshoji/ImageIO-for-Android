@@ -46,7 +46,7 @@ typedef int sem_t;
 #define SEM_VALUE_MAX 32767
 #define SEM_FAILED ((sem_t *)-1)
 
-#include <sys/cdefs.h>
+#include "../sys/cdefs.h"
 
 __BEGIN_DECLS
 int sem_close(sem_t *);

@@ -33,11 +33,11 @@
 #ifndef	_SYS_UBC_H_
 #define	_SYS_UBC_H_
 
-#include <sys/appleapiopts.h>
-#include <sys/cdefs.h>
-#include <sys/kernel_types.h>
+#include "../sys/cdefs.h"
 #include <kern/locks.h>
 #include <mach/memory_object_types.h>
+#include "../sys/appleapiopts.h"
+#include "../sys/kernel_types.h"
 
 
 /* defns for ubc_sync_range() and ubc_msync */

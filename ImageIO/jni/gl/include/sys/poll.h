@@ -103,7 +103,7 @@ struct pollfd
 typedef unsigned int nfds_t;
 
 
-#include <sys/cdefs.h>
+#include "../sys/cdefs.h"
 
 __BEGIN_DECLS
 

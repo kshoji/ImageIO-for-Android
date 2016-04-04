@@ -35,13 +35,13 @@
 #ifndef _SYS_ATTR_H_
 #define _SYS_ATTR_H_
 
-#include <sys/appleapiopts.h>
+#include "../sys/appleapiopts.h"
 
 #ifdef __APPLE_API_UNSTABLE
-#include <sys/types.h>
-#include <sys/ucred.h>
-#include <sys/time.h>
-#include <sys/cdefs.h>
+#include "../sys/types.h"
+#include "../sys/ucred.h"
+#include "../sys/time.h"
+#include "../sys/cdefs.h"
 
 #define FSOPT_NOFOLLOW 		0x00000001
 #define FSOPT_NOINMEMUPDATE 	0x00000002

@@ -69,9 +69,9 @@
 #ifndef	_SYS_TIMES_H_
 #define	_SYS_TIMES_H_
 
-#include <sys/appleapiopts.h>
-#include <sys/cdefs.h>
-#include <sys/_types.h>
+#include "../sys/cdefs.h"
+#include "../sys/_types.h"
+#include "../sys/appleapiopts.h"
 
 /* [XSI] The clock_t type shall be defined as described in <sys/types.h> */
 #ifndef	_CLOCK_T

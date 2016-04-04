@@ -35,8 +35,9 @@
 
 
 #include <stdint.h>
-#include <sys/time.h>
-#include <sys/proc.h>
+#include "../sys/time.h"
+
+#include "../sys/proc.h"
 
 /*
  * Define Memory Status event subclass.

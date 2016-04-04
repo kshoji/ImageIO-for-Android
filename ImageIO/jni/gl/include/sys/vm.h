@@ -68,8 +68,8 @@
 #ifndef _SYS_VM_H
 #define _SYS_VM_H
 
-#include <sys/appleapiopts.h>
-#include <sys/cdefs.h>
+#include "../sys/cdefs.h"
+#include "../sys/appleapiopts.h"
 
 /* just to keep kinfo_proc happy */
 /* NOTE: Pointer fields are size variant for LP64 */

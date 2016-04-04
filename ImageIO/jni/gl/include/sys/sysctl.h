@@ -76,13 +76,14 @@
 /*
  * These are for the eproc structure defined below.
  */
-#include <sys/cdefs.h>
+#include "../sys/cdefs.h"
 
-#include <sys/appleapiopts.h>
-#include <sys/time.h>
-#include <sys/ucred.h>
-#include <sys/proc.h>
-#include <sys/vm.h>
+#include "../sys/time.h"
+
+#include "../sys/appleapiopts.h"
+#include "../sys/proc.h"
+#include "../sys/ucred.h"
+#include "../sys/vm.h"
 
 
 /*

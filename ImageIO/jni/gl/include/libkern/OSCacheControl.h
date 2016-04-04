@@ -25,7 +25,7 @@
 #define _OS_CACHE_CONTROL_H_
 
 #include    <stddef.h>
-#include    <sys/cdefs.h>
+#include    "../sys/cdefs.h"
 #include    <stdint.h>
 #include    <Availability.h>
 

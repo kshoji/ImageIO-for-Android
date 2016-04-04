@@ -5,7 +5,7 @@
 #ifndef _ARM__PARAM_H_
 #define _ARM__PARAM_H_
 
-#include <arm/_types.h>
+#include "_types.h"
 
 /*
  * Round p (pointer or byte index) up to a correctly-aligned value for all

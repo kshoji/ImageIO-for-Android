@@ -64,7 +64,7 @@
 #ifndef _SYS_TERMIOS_H_
 #define _SYS_TERMIOS_H_
 
-#include <sys/cdefs.h>
+#include "../sys/cdefs.h"
 
 /*
  * Special Control Characters
@@ -327,7 +327,7 @@ struct termios {
 #define TCIOFF		3
 #define TCION		4
 
-#include <sys/cdefs.h>
+#include "../sys/cdefs.h"
 
 __BEGIN_DECLS
 speed_t	cfgetispeed(const struct termios *);
@@ -355,7 +355,7 @@ __END_DECLS
  * with the old tty driver.  These ioctl definitions were previously
  * in <sys/ioctl.h>.
  */
-#include <sys/ttycom.h>
+#include "../sys/ttycom.h"
 #endif
 
 /*
@@ -364,5 +364,5 @@ __END_DECLS
 #endif /* !_SYS_TERMIOS_H_ */
 
 #if !defined(_POSIX_C_SOURCE) || defined(_DARWIN_C_SOURCE)
-#include <sys/ttydefaults.h>
+#include "../sys/ttydefaults.h"
 #endif

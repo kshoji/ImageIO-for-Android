@@ -36,9 +36,9 @@
 #include <kern/locks.h>
 #include <kern/thread_call.h>
 #include <kern/thread.h>
-#include <machine/machine_routines.h>
-#include <sys/syslog.h>
-#include <sys/ucred.h>
+#include "../machine/machine_routines.h"
+#include "../sys/syslog.h"
+#include "../sys/ucred.h"
 #include <stdarg.h>
 #include <mach/kmod.h>
 #include <libkern/OSAtomic.h>

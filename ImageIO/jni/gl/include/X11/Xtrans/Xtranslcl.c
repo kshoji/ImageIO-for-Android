@@ -72,19 +72,20 @@ from The Open Group.
 
 #include <errno.h>
 #include <ctype.h>
-#include <sys/signal.h>
-#include <sys/ioctl.h>
-#include <sys/stat.h>
+#include "../../sys/ioctl.h"
+#include "../../sys/stat.h"
+
+#include "../../sys/signal.h"
 #if defined(SVR4) || defined(__SVR4)
-#include <sys/filio.h>
+#include "../../sys/filio.h"
 #endif
 #ifdef sun
 # include <stropts.h>
 #else
-# include <sys/stropts.h>
+# include "../../sys/stropts.h"
 #endif
-#include <sys/wait.h>
-#include <sys/types.h>
+#include "../../sys/wait.h"
+#include "../../sys/types.h"
 
 /*
  * The local transports should be treated the same as a UNIX domain socket
@@ -93,9 +94,9 @@ from The Open Group.
  * The X Server.
  */
 
-#include <sys/socket.h>
+#include "../../sys/socket.h"
 #ifndef X_NO_SYS_UN
-#include <sys/un.h>
+#include "../../sys/un.h"
 #endif
 
 
@@ -1748,7 +1749,7 @@ TRANS(LocalGetNextTransport)(void)
 }
 
 #ifdef NEED_UTSNAME
-#include <sys/utsname.h>
+#include "../../sys/utsname.h"
 #endif
 
 /*

@@ -29,13 +29,13 @@
 #ifndef _SYS_UCONTEXT_H_
 #define _SYS_UCONTEXT_H_
 
-#include <sys/cdefs.h>
-#include <sys/_types.h>
+#include "../sys/cdefs.h"
+#include "../sys/_types.h"
 
 #define __need_mcontext_t
 #define __need_stack_t
 #define __need_ucontext_t
-#include <sys/_structs.h>
+#include "../sys/_structs.h"
 
 #ifndef _SIGSET_T
 #define _SIGSET_T

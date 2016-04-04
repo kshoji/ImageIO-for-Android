@@ -35,8 +35,9 @@
 #ifndef BSD_SYS_KDEBUG_H
 #define BSD_SYS_KDEBUG_H
 
-#include <sys/appleapiopts.h>
-#include <sys/cdefs.h>
+#include "../sys/cdefs.h"
+
+#include "../sys/appleapiopts.h"
 __BEGIN_DECLS
 
 #ifdef __APPLE_API_UNSTABLE

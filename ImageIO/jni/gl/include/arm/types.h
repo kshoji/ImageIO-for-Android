@@ -43,8 +43,8 @@
 #define	_MACHTYPES_H_
 
 #ifndef __ASSEMBLER__
-#include <arm/_types.h>
-#include <sys/cdefs.h>
+#include "../sys/_types.h"
+#include "../sys/cdefs.h"
 /*
  * Basic integral types.  Omit the typedef if
  * not possible for a machine/compiler combination.

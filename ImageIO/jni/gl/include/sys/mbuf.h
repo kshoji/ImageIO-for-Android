@@ -79,8 +79,9 @@
 #ifndef	_SYS_MBUF_H_
 #define	_SYS_MBUF_H_
 
-#include <sys/cdefs.h>
-#include <sys/appleapiopts.h>
+#include "sys/cdefs.h"
+
+#include "../sys/appleapiopts.h"
 
 
 /* mbuf types */

@@ -35,7 +35,7 @@ in this Software without prior written authorization from The Open Group.
 
 #define XlibSpecificationRelease 6
 
-#include <sys/types.h>
+#include "../sys/types.h"
 
 #if defined(__SCO__) || defined(__UNIXWARE__)
 #include <stdint.h>

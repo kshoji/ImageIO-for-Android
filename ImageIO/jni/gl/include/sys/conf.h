@@ -69,10 +69,10 @@
 #ifndef _SYS_CONF_H_
 #define _SYS_CONF_H_ 1
 
-#include <sys/appleapiopts.h>
-#include <sys/cdefs.h>
-#include <sys/queue.h>
+#include "../sys/cdefs.h""
+#include "../sys/queue.h"
 #include <stdint.h>
+#include "../sys/appleapiopts.h"
 
 /*
  * Definitions of device driver entry switches

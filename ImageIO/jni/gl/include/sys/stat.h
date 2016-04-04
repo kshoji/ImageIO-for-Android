@@ -70,13 +70,13 @@
 #ifndef _SYS_STAT_H_
 #define	_SYS_STAT_H_
 
-#include <sys/_types.h>
-#include <sys/cdefs.h>
+#include "../sys/_types.h"
+#include "../sys/cdefs.h"
 #include <Availability.h>
 
 /* [XSI] The timespec structure may be defined as described in <time.h> */
 #define __need_struct_timespec
-#include <sys/_structs.h>
+#include "../sys/_structs.h"
 
 /*
  * [XSI] The blkcnt_t, blksize_t, dev_t, ino_t, mode_t, nlink_t, uid_t,

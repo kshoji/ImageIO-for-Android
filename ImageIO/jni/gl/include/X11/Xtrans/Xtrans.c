@@ -1350,7 +1350,7 @@ static int TRANS(WriteV) (XtransConnInfo ciptr, struct iovec *iov, int iovcnt)
 #ifndef NEED_UTSNAME
 #define NEED_UTSNAME
 #endif
-#include <sys/utsname.h>
+#include "../sys/utsname.h"
 #endif
 
 /*

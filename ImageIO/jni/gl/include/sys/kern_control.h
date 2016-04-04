@@ -35,7 +35,7 @@
 #define KPI_KERN_CONTROL_H
 
 
-#include <sys/appleapiopts.h>
+#include "../sys/appleapiopts.h"
 
 /*
  * Define Controller event subclass, and associated events.

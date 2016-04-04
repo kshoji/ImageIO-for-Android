@@ -10,8 +10,8 @@
 #ifndef _BSD_ARM_SETJMP_H
 #define _BSD_ARM_SETJMP_H
 
-#include <sys/cdefs.h>
-#include <machine/signal.h>
+#include "../sys/cdefs.h"
+#include "../machine/signal.h"
 
 /*
  *	_JBLEN is number of ints required to save the following:

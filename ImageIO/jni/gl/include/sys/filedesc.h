@@ -64,7 +64,7 @@
 #ifndef _SYS_FILEDESC_H_
 #define	_SYS_FILEDESC_H_
 
-#include <sys/appleapiopts.h>
+#include "../sys/appleapiopts.h"
 
 /*
  * This structure is used for the management of descriptors.  It may be

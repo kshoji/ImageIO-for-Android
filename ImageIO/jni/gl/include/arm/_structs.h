@@ -1,7 +1,7 @@
 /*
  * Copyright (c) 2006-2007 Apple Inc. All rights reserved.
  */
-#include <sys/appleapiopts.h>
+#include "../sys/appleapiopts.h"
 
 #ifdef __need_mcontext_t
 #ifndef __need_struct_mcontext

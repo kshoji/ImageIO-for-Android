@@ -35,10 +35,10 @@
 #ifndef _SYS_KAUTH_H
 #define _SYS_KAUTH_H
 
-#include <sys/appleapiopts.h>
-#include <sys/cdefs.h>
+#include "../sys/cdefs.h"
 #include <mach/boolean.h>
-#include <sys/_types.h>		/* __offsetof() */
+#include "../sys/_types.h"		/* __offsetof() */
+#include "../sys/appleapiopts.h"
 
 #ifdef __APPLE_API_EVOLVING
 

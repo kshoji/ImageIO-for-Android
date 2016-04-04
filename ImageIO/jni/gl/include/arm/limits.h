@@ -39,8 +39,9 @@
 #ifndef _ARM_LIMITS_H_
 #define _ARM_LIMITS_H_
 
-#include <sys/cdefs.h>
-#include <arm/_limits.h>
+#include "../sys/cdefs.h"
+
+#include "../arm/_limits.h"
 
 #define	CHAR_BIT	8		/* number of bits in a char */
 #define	MB_LEN_MAX	6		/* Allow 31 bit UTF2 */

@@ -72,12 +72,12 @@
 #ifndef _SYS_SOCKETVAR_H_
 #define	_SYS_SOCKETVAR_H_
 
-#include <sys/appleapiopts.h>
-#include <sys/queue.h>			/* for TAILQ macros */
-#include <sys/select.h>			/* for struct selinfo */
+#include "../sys/queue.h"			/* for TAILQ macros */
+#include "../sys/select.h"			/* for struct selinfo */
 #include <net/kext_net.h>
-#include <sys/ev.h>
-#include <sys/cdefs.h>
+#include "../sys/cdefs.h"
+#include "../sys/appleapiopts.h"
+#include "../sys/ev.h"
 
 /*
  * Hacks to get around compiler complaints

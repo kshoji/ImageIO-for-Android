@@ -64,17 +64,17 @@
 #ifndef _SYS_RESOURCE_H_
 #define	_SYS_RESOURCE_H_
 
-#include <sys/appleapiopts.h>
-#include <sys/cdefs.h>
-#include <sys/_types.h>
+#include "../sys/cdefs.h"
+#include "../sys/_types.h"
 
 #include <Availability.h>
+#include "../sys/appleapiopts.h"
 
 /* [XSI] The timeval structure shall be defined as described in
  * <sys/time.h>
  */
 #define __need_struct_timeval
-#include <sys/_structs.h>
+#include "../sys/_structs.h"
 
 /* The id_t type shall be defined as described in <sys/types.h> */
 #ifndef _ID_T

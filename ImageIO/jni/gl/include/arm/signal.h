@@ -9,7 +9,7 @@
 #ifndef	_ARM_SIGNAL_
 #define	_ARM_SIGNAL_ 1
 
-#include <sys/cdefs.h>
+#include "../sys/cdefs.h"
 
 #ifndef _ANSI_SOURCE
 typedef int sig_atomic_t; 

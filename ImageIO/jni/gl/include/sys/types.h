@@ -69,16 +69,16 @@
 #ifndef _SYS_TYPES_H_
 #define	_SYS_TYPES_H_
 
-#include <sys/appleapiopts.h>
+#include "../sys/appleapiopts.h"
 
 #ifndef __ASSEMBLER__
-#include <sys/cdefs.h>
+#include "../sys/cdefs.h"
 
 /* Machine type dependent parameters. */
-#include <machine/types.h>
-#include <sys/_types.h>
+#include "../machine/types.h"
+#include "../sys/_types.h"
 
-#include <machine/endian.h>
+#include "../machine/endian.h"
 
 #if !defined(_POSIX_C_SOURCE) || defined(_DARWIN_C_SOURCE)
 typedef	unsigned char		u_char;
@@ -257,7 +257,7 @@ typedef __darwin_suseconds_t	suseconds_t;
  * future; please include <sys/select.h> instead.
  */
 #define __need_fd_set
-#include <sys/_structs.h>
+#include "../sys/_structs.h"
 
 #define	NBBY		__DARWIN_NBBY		/* bits in a byte */
 #define NFDBITS		__DARWIN_NFDBITS	/* bits per mask */

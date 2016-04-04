@@ -44,9 +44,10 @@
 #ifndef	_SYS_POSIX_SHM_H_
 #define _SYS_POSIX_SHM_H_
 
-#include <sys/appleapiopts.h>
-#include <sys/types.h>
-#include <sys/proc.h>
+#include "../sys/types.h"
+
+#include "../sys/appleapiopts.h"
+#include "../sys/proc.h"
 
 struct label;
 

@@ -64,8 +64,8 @@
 #ifndef _SYS_UIO_H_
 #define	_SYS_UIO_H_
 
-#include <sys/cdefs.h>
-#include <sys/_types.h>
+#include "../sys/cdefs.h"
+#include "../sys/_types.h"
 
 /*
  * [XSI] The ssize_t and size_t types shall be defined as described

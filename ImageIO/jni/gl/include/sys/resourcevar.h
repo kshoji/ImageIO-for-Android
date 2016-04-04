@@ -64,7 +64,7 @@
 #ifndef	_SYS_RESOURCEVAR_H_
 #define	_SYS_RESOURCEVAR_H_
 
-#include <sys/appleapiopts.h>
+#include "../sys/appleapiopts.h"
 
 /*
  * Kernel per-process accounting / statistics

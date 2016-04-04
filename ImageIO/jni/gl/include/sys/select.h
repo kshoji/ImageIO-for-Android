@@ -63,9 +63,9 @@
 #ifndef _SYS_SELECT_H_
 #define	_SYS_SELECT_H_
 
-#include <sys/appleapiopts.h>
-#include <sys/cdefs.h>
-#include <sys/_types.h>
+#include "../sys/cdefs.h"
+#include "../sys/_types.h"
+#include "../sys/appleapiopts.h"
 
 /*
  * [XSI] The <sys/select.h> header shall define the fd_set type as a structure.
@@ -75,7 +75,7 @@
 #define __need_fd_set
 #define __need_struct_timespec
 #define __need_struct_timeval
-#include <sys/_structs.h>
+#include "../sys/_structs.h"
 
 /*
  * The time_t and suseconds_t types shall be defined as described in
@@ -149,7 +149,7 @@ int	 pselect(int, fd_set * __restrict, fd_set * __restrict,
 		;
 #endif /* __MWERKS__ */
 
-#include <sys/_select.h>	/* select() prototype */
+#include "../sys/_select.h"	/* select() prototype */
 
 __END_DECLS
 

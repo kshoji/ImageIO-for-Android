@@ -27,8 +27,8 @@
 #ifndef _SYS_STATVFS_H_
 #define	_SYS_STATVFS_H_
 
-#include <sys/_types.h>
-#include <sys/cdefs.h>
+#include "../sys/_types.h"
+#include "../sys/cdefs.h"
 
 #ifndef _FSBLKCNT_T
 #define _FSBLKCNT_T

@@ -90,7 +90,8 @@ typedef __darwin_ct_rune_t	__darwin_wint_t;	/* wint_t */
 
 typedef unsigned long		__darwin_clock_t;	/* clock() */
 typedef __uint32_t		__darwin_socklen_t;	/* socklen_t (duh) */
-typedef long			__darwin_ssize_t;	/* byte count or error */
+//typedef long			__darwin_ssize_t;	/* byte count or error */
+typedef __int32_t			__darwin_ssize_t;	/* byte count or error */
 typedef long			__darwin_time_t;	/* time() */
 
 #endif	/* _BSD_ARM__TYPES_H_ */

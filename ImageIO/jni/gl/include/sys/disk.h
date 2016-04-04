@@ -30,7 +30,7 @@
 #define	_SYS_DISK_H_
 
 #include <stdint.h>
-#include <sys/ioctl.h>
+#include "../sys/ioctl.h"
 
 /*
  * Definitions

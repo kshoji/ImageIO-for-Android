@@ -29,8 +29,8 @@
 #ifndef __SYS_RANDOM_H__
 #define __SYS_RANDOM_H__
 
-#include <sys/appleapiopts.h>
-#include <sys/cdefs.h>
+#include "../sys/cdefs.h"
+#include "../sys/appleapiopts.h"
 
 #ifdef __APPLE_API_UNSTABLE
 __BEGIN_DECLS

@@ -75,8 +75,8 @@
 #ifndef _SYS_DIRENT_H 
 #define _SYS_DIRENT_H 
 
-#include <sys/_types.h>
-#include <sys/cdefs.h>
+#include "../sys/_types.h"
+#include "../sys/cdefs.h"
 
 #ifndef	_INO_T
 typedef	__darwin_ino_t	ino_t;		/* inode number */

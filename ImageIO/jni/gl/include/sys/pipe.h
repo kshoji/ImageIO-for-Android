@@ -57,9 +57,9 @@
 #ifndef _SYS_PIPE_H_
 #define _SYS_PIPE_H_
 
-#include <sys/queue.h>			/* for TAILQ macros */
-#include <sys/ev.h>
-#include <sys/cdefs.h>
+#include "../sys/queue.h"			/* for TAILQ macros */
+#include "../sys/cdefs.h"
+#include "../sys/ev.h"
 
 /*
  * Pipe buffer size, keep moderate in value, pipes take kva space.

@@ -69,8 +69,9 @@
 #ifndef	_SYS_SIGNAL_H_
 #define	_SYS_SIGNAL_H_
 
-#include <sys/cdefs.h>
-#include <sys/appleapiopts.h>
+#include "../sys/cdefs.h"
+
+#include "../sys/appleapiopts.h"
 
 #define __DARWIN_NSIG	32	/* counting 0; could be 33 (mask is 1-32) */
 
@@ -78,7 +79,7 @@
 #define NSIG	__DARWIN_NSIG
 #endif
 
-#include <machine/signal.h>	/* sigcontext; codes for SIGILL, SIGFPE */
+#include "../machine/signal.h"	/* sigcontext; codes for SIGILL, SIGFPE */
 
 #define	SIGHUP	1	/* hangup */
 #define	SIGINT	2	/* interrupt */
@@ -140,12 +141,12 @@
 #endif
 
 #ifndef _ANSI_SOURCE
-#include <sys/_types.h>
+#include "../sys/_types.h"
 
 #define __need_mcontext_t
 #define __need_stack_t
 #define __need_ucontext_t
-#include <sys/_structs.h>
+#include "../sys/_structs.h"
 
 #ifndef _PID_T
 #define _PID_T

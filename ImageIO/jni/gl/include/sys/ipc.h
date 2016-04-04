@@ -76,10 +76,10 @@
 #ifndef _SYS_IPC_H_
 #define _SYS_IPC_H_
 
-#include <sys/appleapiopts.h>
-#include <sys/cdefs.h>
+#include "../sys/cdefs.h"
 
-#include <sys/_types.h>
+#include "../sys/_types.h"
+#include "../sys/appleapiopts.h"
 
 /*
  * [XSI] The uid_t, gid_t, mode_t, and key_t types SHALL be defined as

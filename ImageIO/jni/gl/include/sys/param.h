@@ -76,14 +76,14 @@
 #define NeXTBSD	1995064		/* NeXTBSD version (year, month, release) */
 #define NeXTBSD4_0 0		/* NeXTBSD 4.0 */
 
-#include <sys/_types.h>
+#include "../sys/_types.h"
 
 #ifndef NULL
 #define	NULL	__DARWIN_NULL
 #endif /* ! NULL */
 
 #ifndef LOCORE
-#include <sys/types.h>
+#include "../sys/types.h"
 #endif
 
 /*
@@ -93,7 +93,7 @@
  * MAXCOMLEN should be >= sizeof(ac_comm) (see <acct.h>)
  * MAXLOGNAME should be >= UT_NAMESIZE (see <utmp.h>)
  */
-#include <sys/syslimits.h>
+#include "../sys/syslimits.h"
 
 #define	MAXCOMLEN	16		/* max command name remembered */
 #define	MAXINTERP	64		/* max interpreter file name length */
@@ -107,13 +107,13 @@
 #define MAXDOMNAMELEN	256		/* maximum domain name length */
 
 /* Machine type dependent parameters. */
-#include <machine/param.h>
+#include "../machine/param.h"
 
 /* More types and definitions used throughout the kernel. */
 #include <limits.h>
 
 /* Signals. */
-#include <sys/signal.h>
+#include "../sys/signal.h"
 
 /*
  * Priorities.  Note that with 32 run queues, differences less than 4 are

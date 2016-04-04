@@ -37,9 +37,9 @@
 #ifndef _SYS_AIO_H_
 #define	_SYS_AIO_H_
 
-#include <sys/signal.h>
-#include <sys/_types.h>
-#include <sys/cdefs.h>
+#include "../sys/_types.h"
+#include "../sys/cdefs.h"
+#include "../sys/signal.h"
 
 /*
  * [XSI] Inclusion of the <aio.h> header may make visible symbols defined
@@ -48,7 +48,7 @@
  * In our case, this is limited to struct timespec, off_t and ssize_t.
  */
 #define __need_struct_timespec
-#include <sys/_structs.h>
+#include "../sys/_structs.h"
 
 #ifndef _OFF_T
 typedef __darwin_off_t	off_t;

@@ -77,7 +77,7 @@ from the copyright holders.
 #ifndef WIN32
 
 #if defined(TCPCONN) || defined(UNIXCONN)
-#include <sys/socket.h>
+#include "../../sys/socket.h"
 #include <netinet/in.h>
 #include <arpa/inet.h>
 #endif
@@ -90,26 +90,26 @@ from the copyright holders.
 
 #ifdef UNIXCONN
 #ifndef X_NO_SYS_UN
-#include <sys/un.h>
+#include "../../sys/un.h"
 #endif
-#include <sys/stat.h>
+#include "../../sys/stat.h"
 #endif
 
 
 #ifndef NO_TCP_H
 #if defined(linux) || defined(__GLIBC__) 
-#include <sys/param.h>
+#include "../../sys/param.h"
 #endif /* osf */
 #if defined(__NetBSD__) || defined(__OpenBSD__) || defined(__FreeBSD__) || defined(__DragonFly__)
-#include <sys/param.h>
-#include <machine/endian.h>
+#include "../../sys/param.h"
+#include "../../machine/endian.h"
 #endif /* __NetBSD__ || __OpenBSD__ || __FreeBSD__ || __DragonFly__ */
 #include <netinet/tcp.h>
 #endif /* !NO_TCP_H */
 
-#include <sys/ioctl.h>
+#include "../../sys/ioctl.h"
 #if defined(SVR4) || defined(__SVR4)
-#include <sys/filio.h>
+#include "../../sys/filio.h"
 #endif
 
 #if (defined(__i386__) && defined(SYSV)) && !defined(SCO325) && !defined(sun)
@@ -117,7 +117,7 @@ from the copyright holders.
 #endif 
 
 #if defined(__i386__) && defined(SYSV) 
-#include <sys/stropts.h>
+#include "../../sys/stropts.h"
 #endif 
 
 #include <unistd.h>

@@ -31,10 +31,9 @@
 #define _SYS_EV_H_
 
 
-#include <sys/appleapiopts.h>
-
-#include <sys/queue.h>
-#include <sys/cdefs.h>
+#include "../sys/queue.h"
+#include "../sys/cdefs.h"
+#include "../sys/appleapiopts.h"
 
 struct eventreq {
   int      er_type;

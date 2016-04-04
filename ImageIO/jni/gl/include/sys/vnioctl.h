@@ -72,8 +72,8 @@
 #ifndef _SYS_VNIOCTL_H_
 #define _SYS_VNIOCTL_H_
 
-#include <sys/appleapiopts.h>
-#include <sys/cdefs.h>
+#include "../sys/cdefs.h"
+#include "../sys/appleapiopts.h"
 
 
 /*

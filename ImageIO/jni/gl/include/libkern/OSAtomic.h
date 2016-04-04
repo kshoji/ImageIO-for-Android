@@ -25,7 +25,7 @@
 #define _OSATOMIC_H_
 
 #include    <stddef.h>
-#include    <sys/cdefs.h>
+#include    "../sys/cdefs.h"
 #include    <stdint.h>
 #include    <stdbool.h>
 

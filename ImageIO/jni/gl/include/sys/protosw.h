@@ -66,8 +66,8 @@
 #ifndef _SYS_PROTOSW_H_
 #define _SYS_PROTOSW_H_
 
-#include <sys/appleapiopts.h>
-#include <sys/cdefs.h>
+#include "../sys/cdefs.h"
+#include "../sys/appleapiopts.h"
 
 #define	PR_SLOWHZ	2		/* 2 slow timeouts per second */
 #ifndef __APPLE__

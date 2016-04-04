@@ -1,5 +1,5 @@
 /*-
- * Copyright (c) 2000 Poul-Henning Kamp and Dag-Erling Co•dan Sm¿rgrav
+ * Copyright (c) 2000 Poul-Henning Kamp and Dag-Erling Coï¿½dan Smï¿½rgrav
  * All rights reserved.
  *
  * Redistribution and use in source and binary forms, with or without
@@ -31,7 +31,7 @@
 #ifndef _SYS_SBUF_H_
 #define	_SYS_SBUF_H_
 
-#include <sys/_types.h>
+#include "../sys/_types.h"
 #include <stdarg.h>
 
 /*

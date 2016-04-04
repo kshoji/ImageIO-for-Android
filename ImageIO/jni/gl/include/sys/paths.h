@@ -30,7 +30,7 @@
 #ifndef _SYS_PATHS_H_
 #define	_SYS_PATHS_H_
 
-#include <sys/appleapiopts.h>
+#include "../sys/appleapiopts.h"
 
 #ifdef __APPLE_API_PRIVATE
 

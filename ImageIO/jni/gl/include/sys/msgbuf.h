@@ -63,7 +63,7 @@
 #ifndef	_SYS_MSGBUF_H_
 #define _SYS_MSGBUF_H_
 
-#include <sys/cdefs.h>
+#include "../sys/cdefs.h"
 
 #define	MAX_MSG_BSIZE	(1*1024*1024)
 struct	msgbuf {

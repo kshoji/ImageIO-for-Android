@@ -404,7 +404,7 @@ typedef int _Xgetservbynameparams; /* dummy */
 /* WARNING:  The h_addr_list and s_aliases values are *not* copied! */
 
 #if defined(__NetBSD__) || defined(__FreeBSD__) || defined(__DragonFly__)
-#include <sys/param.h>
+#include "../sys/param.h"
 #endif
 
 typedef struct {
@@ -534,11 +534,11 @@ typedef int _Xgetservbynameparams; /* dummy */
  */
 
 #if defined(X_INCLUDE_DIRENT_H) && !defined(_XOS_INCLUDED_DIRENT_H)
-# include <sys/types.h>
+# include "../sys/types.h"
 # if !defined(X_NOT_POSIX) || defined(SYSV)
 #  include <dirent.h>
 # else
-#  include <sys/dir.h>
+#  include "../sys/dir.h"
 #  ifndef dirent
 #   define dirent direct
 #  endif

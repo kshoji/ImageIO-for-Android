@@ -56,12 +56,12 @@ from The Open Group.
 
 #include <X11/Xos.h>
 
-#include <sys/select.h>  /* Get the FD_* macros. */
+#include "../sys/select.h"  /* Get the FD_* macros. */
 
 #include <X11/Xmd.h>
 
 #ifdef CSRG_BASED
-#include <sys/param.h>
+#include "../sys/param.h"
 # if BSD < 199103
 typedef long fd_mask;
 # endif
@@ -151,7 +151,7 @@ typedef struct fd_set {
         }
 
 #else /* USE_POLL */
-#include <sys/poll.h>
+#include "../sys/poll.h"
 #endif /* USE_POLL */
 
 #else /* WIN32 */

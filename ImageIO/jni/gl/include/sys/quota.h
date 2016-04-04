@@ -67,10 +67,10 @@
 #ifndef _SYS_QUOTA_H
 #define _SYS_QUOTA_H
 
-#include <sys/appleapiopts.h>
-#include <sys/cdefs.h>
+#include "../sys/cdefs.h"
 
 #include <mach/boolean.h>
+#include "../sys/appleapiopts.h"
 
 #ifdef __APPLE_API_UNSTABLE
 /*

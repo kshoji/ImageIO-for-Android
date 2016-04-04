@@ -63,10 +63,11 @@
 #ifndef _SYS_UNPCB_H_
 #define _SYS_UNPCB_H_
 
-#include <sys/appleapiopts.h>
-#include <sys/queue.h>
-#include <sys/un.h>
-#include <sys/ucred.h>
+#include "../sys/queue.h"
+#include "../sys/un.h"
+
+#include "../sys/appleapiopts.h"
+#include "../sys/ucred.h"
 
 /*
  * Protocol control block for an active

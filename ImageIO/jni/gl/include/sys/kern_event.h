@@ -35,9 +35,9 @@
 #ifndef SYS_KERN_EVENT_H
 #define SYS_KERN_EVENT_H
 
-#include <sys/appleapiopts.h>
-#include <sys/ioccom.h>
-#include <sys/sys_domain.h>
+#include "../sys/appleapiopts.h"
+#include "../sys/ioccom.h"
+#include "../sys/sys_domain.h"
 
 #define KEVENTS_ON  1
 #define KEV_SNDSPACE (4 * 1024)

@@ -64,8 +64,8 @@
 #ifndef _SYS_TIME_H_
 #define _SYS_TIME_H_
 
-#include <sys/cdefs.h>
-#include <sys/_types.h>
+#include "../sys/cdefs.h"
+#include "../sys/_types.h"
 #include <Availability.h>
 
 /*
@@ -75,7 +75,7 @@
 #define __need_fd_set
 #define __need_struct_timespec
 #define __need_struct_timeval
-#include <sys/_structs.h>
+#include "../sys/_structs.h"
 
 #ifndef	_TIME_T
 #define	_TIME_T
@@ -210,7 +210,7 @@ int	settimeofday(const struct timeval *, const struct timezone *);
 int	getitimer(int, struct itimerval *);
 int	gettimeofday(struct timeval * __restrict, void * __restrict);
 
-#include <sys/_select.h>	/* select() prototype */
+#include "../sys/_select.h"	/* select() prototype */
 
 int	setitimer(int, const struct itimerval * __restrict,
 		struct itimerval * __restrict);

@@ -70,15 +70,15 @@
 #ifndef _SYS_UCRED_H_
 #define	_SYS_UCRED_H_
 
-#include <sys/appleapiopts.h>
-#include <sys/cdefs.h>
-#include <sys/param.h>
+#include "../sys/cdefs.h"
+#include "../sys/param.h"
 #include <bsm/audit.h>
+#include "../sys/appleapiopts.h"
 
 struct label;
 
 #ifdef __APPLE_API_UNSTABLE
-#include <sys/queue.h>
+#include "../sys/queue.h"
 
 /*
  * In-kernel credential structure.

@@ -42,7 +42,7 @@
 #ifndef _ARM__ENDIAN_H_
 #define	_ARM__ENDIAN_H_
 
-#include <sys/cdefs.h>
+#include "../sys/cdefs.h"
 /*
  * Define _NOQUAD if the compiler does NOT support 64-bit integers.
  */
@@ -72,7 +72,7 @@
 
 #define	BYTE_ORDER	__DARWIN_BYTE_ORDER
 
-#include <sys/_endian.h>
+#include "../sys/_endian.h"
 
 #endif /* defined(KERNEL) || (!defined(_POSIX_C_SOURCE) || defined(_DARWIN_C_SOURCE)) */
 #endif /* !_ARM__ENDIAN_H_ */

@@ -29,8 +29,8 @@
 #ifndef _KERN_SYS_KERNELTYPES_H_
 #define _KERN_SYS_KERNELTYPES_H_
 
-#include <sys/cdefs.h>
-#include <sys/types.h>
+#include "../sys/cdefs.h"
+#include "../sys/types.h"
 #include <stdint.h>
 
 #ifdef BSD_BUILD

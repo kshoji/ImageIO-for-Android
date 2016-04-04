@@ -47,7 +47,7 @@ from The Open Group.
  * CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
  */
 
-#include <sys/un.h>
+#include "../../sys/un.h"
 #include <stropts.h>
 #include <poll.h>
 #include <tiuser.h>

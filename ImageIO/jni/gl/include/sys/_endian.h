@@ -90,7 +90,7 @@
 #ifndef _SYS__ENDIAN_H_
 #define	_SYS__ENDIAN_H_
 
-#include <sys/cdefs.h>
+#include "../sys/cdefs.h"
 
 /*
  * Macros for network/external number representation conversion.

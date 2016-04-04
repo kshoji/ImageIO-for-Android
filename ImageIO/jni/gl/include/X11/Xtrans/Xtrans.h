@@ -54,7 +54,7 @@ from The Open Group.
 #include <X11/Xos.h>
 
 #ifndef WIN32
-#include <sys/socket.h>
+#include "../sys/socket.h"
 #endif
 
 
@@ -204,7 +204,7 @@ struct iovec {
 };
 
 #else
-#include <sys/uio.h>
+#include "../sys/uio.h"
 #endif
 
 typedef struct _XtransConnInfo *XtransConnInfo;

@@ -48,7 +48,7 @@
 #ifndef _ARM_PARAM_H_
 #define _ARM_PARAM_H_
 
-#include <arm/_param.h>
+#include "../arm/_param.h"
 
 /*
  * Round p (pointer or byte index) up to a correctly-aligned value for all

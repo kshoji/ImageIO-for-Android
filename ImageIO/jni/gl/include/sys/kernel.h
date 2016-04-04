@@ -68,7 +68,7 @@
 #ifndef	_SYS_KERNEL_H_
 #define _SYS_KERNEL_H_
 
-#include <sys/appleapiopts.h>
+#include "../sys/appleapiopts.h"
 
 
 #endif	/* !_SYS_KERNEL_H_ */

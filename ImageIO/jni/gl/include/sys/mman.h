@@ -76,10 +76,10 @@
 #ifndef	_SYS_MMAN_H_
 #define _SYS_MMAN_H_
 
-#include <sys/appleapiopts.h>
-#include <sys/cdefs.h>
+#include "../sys/cdefs.h"
 
-#include <sys/_types.h>
+#include "../sys/_types.h"
+#include "../sys/appleapiopts.h"
 
 /*
  * [various] The mode_t, off_t, and size_t types shall be defined as

@@ -68,8 +68,9 @@
 #ifndef _SYS_ACCT_H_
 #define _SYS_ACCT_H_
 
-#include <sys/appleapiopts.h>
-#include <sys/cdefs.h>
+#include "../sys/cdefs.h"
+
+#include "../sys/appleapiopts.h"
 /*
  * Accounting structures; these use a comp_t type which is a 3 bits base 8
  * exponent, 13 bit fraction ``floating point'' number.  Units are 1/AHZ

@@ -5,7 +5,7 @@
 #ifndef _SYS_LCTX_H_
 #define _SYS_LCTX_H_
 
-#include <sys/syscall.h>
+#include "../sys/syscall.h"
 
 static __inline pid_t
 getlcid(pid_t pid)

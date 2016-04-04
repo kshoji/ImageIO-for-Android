@@ -67,7 +67,7 @@
 #ifndef	_SYS_UTSNAME_H
 #define	_SYS_UTSNAME_H
 
-#include <sys/cdefs.h>
+#include "../sys/cdefs.h"
 
 #define	_SYS_NAMELEN	256
 

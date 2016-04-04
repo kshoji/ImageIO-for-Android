@@ -24,8 +24,8 @@
 #include <X11/extensions/XShm.h>
 
 #ifdef _XSHM_H_
-#include <sys/ipc.h>
-#include <sys/shm.h>
+#include "sys/ipc.h"
+#include "sys/shm.h"
 #endif
 
 #include <stdlib.h>

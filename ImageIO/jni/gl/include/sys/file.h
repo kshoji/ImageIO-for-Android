@@ -64,12 +64,12 @@
 #ifndef _SYS_FILE_H_
 #define	_SYS_FILE_H_
 
-#include <sys/appleapiopts.h>
-#include <sys/types.h>
-#include <sys/fcntl.h>
-#include <sys/unistd.h>
-#include <sys/queue.h>
-#include <sys/cdefs.h>
+#include "../sys/types.h"
+#include "../sys/queue.h"
+#include "../sys/cdefs.h"
+#include "../sys/appleapiopts.h"
+#include "../sys/fcntl.h"
+#include "../sys/unistd.h"
 
 
 #ifndef _KAUTH_CRED_T

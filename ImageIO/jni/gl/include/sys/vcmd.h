@@ -64,7 +64,7 @@
 #ifndef _SYS_VCMD_H_
 #define	_SYS_VCMD_H_
 
-#include <sys/ioctl.h>
+#include "../sys/ioctl.h"
 
 #define	VPRINT		0100
 #define	VPLOT		0200

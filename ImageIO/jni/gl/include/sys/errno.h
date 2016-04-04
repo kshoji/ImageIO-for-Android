@@ -69,7 +69,7 @@
 #ifndef	_SYS_ERRNO_H_
 #define	_SYS_ERRNO_H_
 
-#include <sys/cdefs.h>
+#include "../sys/cdefs.h"
 
 __BEGIN_DECLS
 extern int * __error(void);

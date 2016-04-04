@@ -68,9 +68,9 @@
 #ifndef	_SYS_LOCK_H_
 #define	_SYS_LOCK_H_
 
-#include <sys/appleapiopts.h>
-#include <sys/types.h>
-#include <sys/cdefs.h>
+#include "../sys/types.h"
+#include "../sys/cdefs.h"
+#include "../sys/appleapiopts.h"
 
 
 #endif	/* _SYS_LOCK_H_ */

@@ -64,15 +64,15 @@
 #ifndef	_SYS_USER_H_
 #define	_SYS_USER_H_
 
-#include <sys/appleapiopts.h>
-/* stuff that *used* to be included by user.h, or is now needed */
 #include <errno.h>
-#include <sys/time.h>
-#include <sys/resource.h>
-#include <sys/ucred.h>
-#include <sys/uio.h>
-#include <sys/vm.h>		/* XXX */
-#include <sys/sysctl.h>
+#include "../sys/time.h"
+#include "../sys/resource.h"
+#include "../sys/uio.h"
+
+#include "../sys/appleapiopts.h"
+#include "../sys/sysctl.h"
+#include "../sys/ucred.h"
+#include "../sys/vm.h"		/* XXX */
 
 
 

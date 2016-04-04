@@ -64,9 +64,8 @@
 #ifndef	_SYS_SOCKIO_H_
 #define	_SYS_SOCKIO_H_
 
-#include <sys/appleapiopts.h>
-
-#include <sys/ioccom.h>
+#include "../sys/appleapiopts.h"
+#include "../sys/ioccom.h"
 
 /* Socket ioctl's. */
 #define	SIOCSHIWAT	 _IOW('s',  0, int)		/* set high watermark */

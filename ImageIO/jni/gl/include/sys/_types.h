@@ -29,8 +29,8 @@
 #ifndef _SYS__TYPES_H_
 #define _SYS__TYPES_H_
 
-#include <sys/cdefs.h>
-#include <machine/_types.h>
+#include "cdefs.h"
+#include "../machine/_types.h"
 
 /* pthread opaque structures */
 #if defined(__LP64__)

@@ -26,8 +26,8 @@
  * @APPLE_OSREFERENCE_LICENSE_HEADER_END@
  */
 
-#include <sys/cdefs.h>
-#include <sys/_types.h>
+#include "../sys/cdefs.h"
+#include "../sys/_types.h"
 
 #ifdef __need_ucontext_t
 #ifndef __need_struct_ucontext
@@ -54,7 +54,7 @@
 #endif /* __need_struct_ucontext64 */
 
 #if defined(__need_struct_mcontext) || defined(__need_struct_mcontext64)
-#include <machine/_structs.h>
+#include "../machine/_structs.h"
 #endif /* __need_struct_mcontext || __need_struct_mcontext64 */
 
 #if defined(__need_stack_t) || defined(__need_struct_ucontext) || defined(__need_struct_ucontext64)

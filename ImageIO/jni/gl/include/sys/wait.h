@@ -64,8 +64,8 @@
 #ifndef _SYS_WAIT_H_
 #define	_SYS_WAIT_H_
 
-#include <sys/cdefs.h>
-#include <sys/_types.h>
+#include "../sys/cdefs.h"
+#include "../sys/_types.h"
 
 /*
  * This file holds definitions relevent to the wait4 system call
@@ -113,8 +113,8 @@ typedef __darwin_id_t	id_t;
  *		well, or in future releases your stware may not compile
  *		without modification.
  */
-#include <sys/signal.h>		/* [XSI] for siginfo_t */
-#include <sys/resource.h>	/* [XSI] for struct rusage */
+#include "../sys/signal.h"		/* [XSI] for siginfo_t */
+#include "../sys/resource.h"	/* [XSI] for struct rusage */
 
 /*
  * Option bits for the third argument of wait4.  WNOHANG causes the
@@ -190,7 +190,7 @@ typedef __darwin_id_t	id_t;
 #define	WAIT_ANY	(-1)	/* any process */
 #define	WAIT_MYPGRP	0	/* any process in my process group */
 
-#include <machine/endian.h>
+#include "../machine/endian.h"
 
 /*
  * Deprecated:

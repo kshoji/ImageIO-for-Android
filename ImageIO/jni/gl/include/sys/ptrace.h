@@ -64,8 +64,8 @@
 #ifndef	_SYS_PTRACE_H_
 #define	_SYS_PTRACE_H_
 
-#include <sys/appleapiopts.h>
-#include <sys/cdefs.h>
+#include "../sys/cdefs.h"
+#include "../sys/appleapiopts.h"
 
 #define	PT_TRACE_ME	0	/* child declares it's being traced */
 #define	PT_READ_I	1	/* read word in child's I space */

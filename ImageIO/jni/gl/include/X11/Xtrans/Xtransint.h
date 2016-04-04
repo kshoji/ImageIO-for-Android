@@ -85,7 +85,7 @@ from The Open Group.
 #include <errno.h>
 
 #ifndef WIN32
-#  include <sys/socket.h>
+#  include "../sys/socket.h"
 # include <netinet/in.h>
 # include <arpa/inet.h>
 
@@ -98,7 +98,7 @@ from The Open Group.
 #  ifndef NEED_UTSNAME
 #   define NEED_UTSNAME
 #  endif
-#  include <sys/utsname.h>
+#  include "../sys/utsname.h"
 # endif
 
 #  define ESET(val) errno = val

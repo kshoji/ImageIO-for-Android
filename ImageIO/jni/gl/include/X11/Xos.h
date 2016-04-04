@@ -39,7 +39,7 @@ in this Software without prior written authorization from The Open Group.
  * Get major data types (esp. caddr_t)
  */
 
-# include <sys/types.h>
+# include "../sys/types.h"
 
 # if defined(__SCO__) || defined(__UNIXWARE__)
 #  include <stdint.h>
@@ -82,7 +82,7 @@ in this Software without prior written authorization from The Open Group.
 #  ifdef WIN32
 #   include <X11/Xw32defs.h>
 #  else
-#   include <sys/file.h>
+#   include "../sys/file.h"
 #  endif
 # else /* X_NOT_POSIX */
 #  include <fcntl.h>
@@ -96,7 +96,7 @@ in this Software without prior written authorization from The Open Group.
 # if defined(_POSIX_SOURCE) && defined(SVR4)
 /* need to omit _POSIX_SOURCE in order to get what we want in SVR4 */
 #  undef _POSIX_SOURCE
-#  include <sys/time.h>
+#  include "../sys/time.h"
 #  define _POSIX_SOURCE
 # elif defined(WIN32)
 #  include <time.h>
@@ -107,7 +107,7 @@ struct timeval {
 };
 #   define _TIMEVAL_DEFINED
 #  endif
-#  include <sys/timeb.h>
+#  include "../sys/timeb.h"
 #  define gettimeofday(t) \
 { \
     struct _timeb _gtodtmp; \
@@ -116,7 +116,7 @@ struct timeval {
     (t)->tv_usec = _gtodtmp.millitm * 1000; \
 }
 # else
-#  include <sys/time.h>
+#  include "../sys/time.h"
 #  include <time.h>
 # endif /* defined(_POSIX_SOURCE) && defined(SVR4) */
 

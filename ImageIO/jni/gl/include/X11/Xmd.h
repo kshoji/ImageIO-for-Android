@@ -54,7 +54,7 @@ SOFTWARE.
  * Special per-machine configuration flags.
  */
 # if defined(__sun) && defined(__SVR4)
-#  include <sys/isa_defs.h> /* Solaris: defines _LP64 if necessary */
+#  include "../sys/isa_defs.h" /* Solaris: defines _LP64 if necessary */
 # endif
 
 # if defined (_LP64) || defined(__LP64__) || \

@@ -64,7 +64,7 @@
 #ifndef	_SYS_REBOOT_H_
 #define _SYS_REBOOT_H_
 
-#include <sys/appleapiopts.h>
+#include "../sys/appleapiopts.h"
 
 #ifdef	KERNEL_BUILD
 #include <mach_kdb.h>

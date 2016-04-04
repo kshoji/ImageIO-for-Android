@@ -64,8 +64,8 @@
 #ifndef _VNODE_H_
 #define _VNODE_H_
 
-#include <sys/appleapiopts.h>
-#include <sys/cdefs.h>
+#include "../sys/cdefs.h"
+#include "../sys/appleapiopts.h"
 
 /*
  * The vnode is the focus of all file activity in UNIX.  There is a

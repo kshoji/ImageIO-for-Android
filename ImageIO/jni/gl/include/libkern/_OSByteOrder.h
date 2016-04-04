@@ -37,7 +37,7 @@
  * <libkern/arch/_OSByteOrder.h> for little-endian architectures.
  */
 
-#include <sys/_types.h>
+#include "../sys/_types.h"
 
 /* Macros for swapping constant values in the preprocessing stage. */
 #define __DARWIN_OSSwapConstInt16(x) \
